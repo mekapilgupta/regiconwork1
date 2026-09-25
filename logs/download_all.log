@@ -1,0 +1,10 @@
+2026-09-05 21:32:32,611 | download_all | INFO | === Phase 1: downloading everything needed for offline GPU run ===
+2026-09-05 21:33:30,440 | download_all | INFO | === Phase 1: downloading everything needed for offline GPU run ===
+2026-09-05 21:33:44,392 | download_all | INFO | === Phase 1: downloading everything needed for offline GPU run ===
+2026-09-05 21:37:04,291 | download_all | INFO | === Phase 1: downloading everything needed for offline GPU run ===
+2026-09-05 21:37:53,795 | download_all | INFO | === Phase 1: downloading everything needed for offline GPU run ===
+2026-09-05 21:40:26,850 | download_all | INFO | === Phase 1: downloading everything needed for offline GPU run ===
+2026-09-05 21:44:40,860 | download_all | INFO | === Phase 1: downloading everything needed for offline GPU run ===
+2026-09-05 21:45:17,986 | download_all | INFO | Done. Verify with `du -sh data models`, then copy/rsync this whole directory to the GPU node's filesystem (or confirm it's already on a shared mount) before running run_phase2_offline.sh.
+2026-09-05 21:52:33,439 | download_all | INFO | === Phase 1: downloading everything needed for offline GPU run ===
+2026-09-05 21:53:59,205 | download_all | INFO | Done. Verify with `du -sh data models`, then copy/rsync this whole directory to the GPU node's filesystem (or confirm it's already on a shared mount) before running run_phase2_offline.sh.

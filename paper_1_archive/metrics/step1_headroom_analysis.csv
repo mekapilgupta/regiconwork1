@@ -1,0 +1,3 @@
+track,N,S1_R5kt,S3_R5kt,Best_Single,Best_Single_R5kt,Oracle_S1_S3_R5kt,Headroom_S1_S3_pts,Oracle_4Sys_R5kt,Headroom_4Sys_pts,S1_fail_S3_succ_pct,S3_fail_S1_succ_pct
+bn,312,0.6763,0.7532,S3,0.7532,0.7692,1.6,0.7853,3.21,9.29,1.6
+te,238,0.7017,0.6933,S1,0.7017,0.7227,2.1,0.7437,4.2,2.1,2.94

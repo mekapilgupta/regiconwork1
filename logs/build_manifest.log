@@ -1,0 +1,16 @@
+2026-09-05 23:44:58,788 | build_manifest | INFO | Loaded: 36 source articles, 4000 summaries, 4000 metrics, 320 judge verdicts.
+2026-09-05 23:44:59,903 | build_manifest | INFO | Successfully generated evaluation manifest with 4000 rows:
+2026-09-05 23:44:59,903 | build_manifest | INFO |  -> JSONL: /Home/kshitij22256/incon2026/outputs/evaluation_manifest.jsonl
+2026-09-05 23:44:59,904 | build_manifest | INFO |  -> CSV:   /Home/kshitij22256/incon2026/outputs/evaluation_manifest.csv
+2026-09-05 23:45:09,292 | build_manifest | INFO | Loaded: 1500 source articles, 4000 summaries, 4000 metrics, 320 judge verdicts.
+2026-09-05 23:45:10,597 | build_manifest | INFO | Successfully generated evaluation manifest with 4000 rows:
+2026-09-05 23:45:10,597 | build_manifest | INFO |  -> JSONL: /Home/kshitij22256/incon2026/outputs/evaluation_manifest.jsonl
+2026-09-05 23:45:10,597 | build_manifest | INFO |  -> CSV:   /Home/kshitij22256/incon2026/outputs/evaluation_manifest.csv
+2026-09-06 00:05:24,357 | build_manifest | INFO | Loaded: 1500 source articles, 4000 summaries, 4000 metrics, 320 judge records.
+2026-09-06 00:05:25,759 | build_manifest | INFO | Successfully generated canonical evaluation manifest with 4000 rows:
+2026-09-06 00:05:25,759 | build_manifest | INFO |  -> JSONL: /Home/kshitij22256/incon2026/outputs/evaluation_manifest.jsonl
+2026-09-06 00:05:25,759 | build_manifest | INFO |  -> CSV:   /Home/kshitij22256/incon2026/outputs/evaluation_manifest.csv
+2026-09-06 00:07:21,078 | build_manifest | INFO | Loaded: 1500 source articles, 4000 summaries, 4000 metrics, 320 judge records.
+2026-09-06 00:07:22,491 | build_manifest | INFO | Successfully generated canonical evaluation manifest with 4000 rows:
+2026-09-06 00:07:22,491 | build_manifest | INFO |  -> JSONL: /Home/kshitij22256/incon2026/outputs/evaluation_manifest.jsonl
+2026-09-06 00:07:22,491 | build_manifest | INFO |  -> CSV:   /Home/kshitij22256/incon2026/outputs/evaluation_manifest.csv

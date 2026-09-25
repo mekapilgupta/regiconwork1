@@ -1,0 +1,43 @@
+# Large model weights, checkpoints and backbones
+models/
+*.bin
+*.h5
+*.msgpack
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Raw datasets (heavy downloads reproducible via scripts)
+data/xlsum_raw/
+*.arrow
+
+# Caches and temporary stores
+cache/
+paper_1_archive/cache/
+*.npy
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Secrets and environment configurations
+.env
+.env.local
+.env.*.local
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+hs_err_pid*.log

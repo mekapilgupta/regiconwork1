@@ -1,0 +1,33 @@
+Track,Method,R@2kt,R@5kt,CFR,Tail Rescued,Delta vs Base
+bn,Base Single View (trans_natural),61.86%,73.72%,15.06%,0 (Base),+0.00 pts
+bn,M1: Sentence Bucket (Centroid / beta=0),62.82%,74.04%,14.74%,+4 (Net: +1),+0.32 pts
+bn,M1: Sentence Bucket (LSE beta=0.5),62.82%,74.36%,14.74%,+5 (Net: +2),+0.64 pts
+bn,M1: Sentence Bucket (LSE beta=1.0),63.14%,74.68%,14.74%,+5 (Net: +3),+0.96 pts
+bn,M1: Sentence Bucket (LSE beta=2.0),63.14%,75.00%,14.74%,+5 (Net: +4),+1.28 pts
+bn,M1: Sentence Bucket (LSE beta=5.0),63.46%,74.36%,14.74%,+3 (Net: +2),+0.64 pts
+bn,M1: Sentence Bucket (LSE beta=10.0),63.46%,75.00%,14.74%,+5 (Net: +4),+1.28 pts
+bn,M1: Sentence Bucket (LSE beta=20.0),63.46%,75.00%,14.74%,+4 (Net: +4),+1.28 pts
+bn,M1: Uncertainty Penalty (lambda=0.5),62.82%,74.04%,14.74%,+4 (Net: +1),+0.32 pts
+bn,M1: Uncertainty Penalty (lambda=1.0),62.82%,73.72%,14.74%,+4 (Net: +0),+0.00 pts
+bn,M1: Uncertainty Penalty (lambda=2.0),62.50%,73.40%,14.42%,+4 (Net: -1),-0.32 pts
+bn,M1: Uncertainty Penalty (lambda=3.0),61.22%,72.76%,14.42%,+5 (Net: -3),-0.96 pts
+bn,M1: Uncertainty Penalty (lambda=5.0),56.73%,69.87%,14.74%,+7 (Net: -12),-3.85 pts
+bn,CONTROL: K=6 Random Questions,3.53%,7.69%,74.36%,+0,-66.03 pts
+bn,M3: HyDE Passage-Shaped Cloze,54.49%,67.31%,14.74%,+5 (Net: -20),-6.41 pts
+bn,M1 + M3-HyDE (K=7 Sentence Bucket LSE),63.78%,74.36%,14.74%,+5 (Net: +2),+0.64 pts
+te,Base Single View (src_paraphrase),55.46%,69.33%,15.55%,0 (Base),+0.00 pts
+te,M1: Sentence Bucket (Centroid / beta=0),61.34%,71.01%,18.07%,+6 (Net: +4),+1.68 pts
+te,M1: Sentence Bucket (LSE beta=0.5),61.34%,71.01%,18.07%,+6 (Net: +4),+1.68 pts
+te,M1: Sentence Bucket (LSE beta=1.0),61.34%,71.01%,18.07%,+6 (Net: +4),+1.68 pts
+te,M1: Sentence Bucket (LSE beta=2.0),60.92%,70.59%,17.65%,+5 (Net: +3),+1.26 pts
+te,M1: Sentence Bucket (LSE beta=5.0),61.34%,70.59%,17.65%,+5 (Net: +3),+1.26 pts
+te,M1: Sentence Bucket (LSE beta=10.0),61.34%,71.43%,17.23%,+7 (Net: +5),+2.10 pts
+te,M1: Sentence Bucket (LSE beta=20.0),61.34%,71.01%,16.81%,+7 (Net: +4),+1.68 pts
+te,M1: Uncertainty Penalty (lambda=0.5),61.76%,70.59%,18.07%,+6 (Net: +3),+1.26 pts
+te,M1: Uncertainty Penalty (lambda=1.0),61.34%,70.17%,18.07%,+6 (Net: +2),+0.84 pts
+te,M1: Uncertainty Penalty (lambda=2.0),60.92%,68.91%,18.07%,+6 (Net: -1),-0.42 pts
+te,M1: Uncertainty Penalty (lambda=3.0),60.92%,69.33%,18.07%,+6 (Net: +0),+0.00 pts
+te,M1: Uncertainty Penalty (lambda=5.0),55.04%,65.97%,18.07%,+5 (Net: -8),-3.36 pts
+te,CONTROL: K=6 Random Questions,7.56%,11.76%,69.75%,+0,-57.56 pts
+te,M3: HyDE Passage-Shaped Cloze,57.14%,67.23%,15.13%,+5 (Net: -5),-2.10 pts
+te,M1 + M3-HyDE (K=7 Sentence Bucket LSE),61.76%,71.01%,17.23%,+7 (Net: +4),+1.68 pts

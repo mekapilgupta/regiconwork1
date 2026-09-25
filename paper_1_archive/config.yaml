@@ -1,0 +1,37 @@
+benchmark:
+  name: XOR-TyDi (Cross-Lingual Retrieval)
+  corpus: wikipedia-dpr-100w (DPR 100-word chunks)
+  corpus_passages: 21015324
+  split: dev
+  tracks:
+    bengali:
+      code: bn
+      n_queries: 312
+      n_pool_passages: 77446
+    telugu:
+      code: te
+      n_queries: 238
+      n_pool_passages: 66714
+models:
+  primary_biencoder:
+    id: BAAI/bge-m3
+    revision: 5617a9f61b028005a4858fdac845db406aefb181
+    precision: FP16
+  secondary_biencoder:
+    id: intfloat/multilingual-e5-small
+    revision: 614241f622f53c4eeff9890bdc4f31cfecc418b3
+    precision: FP16
+  reranker:
+    id: BAAI/bge-reranker-v2-m3
+    revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e
+    precision: FP16
+evaluation_parameters:
+  token_budgets:
+  - 2,000 characters (R@2kt)
+  - 5,000 characters (R@5kt)
+  bootstrap_iterations: 1000
+  conformal_alpha: 0.1
+  random_seed: 42
+compute_cost:
+  total_gpu_time_hours: 1.2
+  total_api_cost_usd: 0.0

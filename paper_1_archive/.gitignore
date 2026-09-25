@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Secrets
+.env
+.env.*
+*.env
+venv/
+env/
+ENV/
+.venv/
+
+# Crash logs & system logs
+hs_err_pid*.log
+*.log
+
+# Large Cache and Model Weights (do not commit model blobs or dense passage pool caches)
+cache/
+*.npy
+*.npz
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.ckpt
+blobs/
+models/
+
+# Large corpus binary dumps (keep queries/qrels/splits)
+data/corpus/*
+!data/corpus/.gitkeep
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~

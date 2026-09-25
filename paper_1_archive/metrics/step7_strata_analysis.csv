@@ -1,0 +1,4 @@
+Track,Stratum,Dense Ref R@5kt,M1 R@5kt,M1 Delta,R-Ref R@5kt,R-M1 R@5kt,R-M1 Delta
+bn,Entity-Heavy (n=312),75.32%,74.36%,-0.96 pts,76.28%,76.28%,+0.00 pts
+te,Entity-Heavy (n=236),69.92%,70.34%,+0.42 pts,71.61%,70.34%,-1.27 pts
+te,Descriptive / Non-Entity (n=2),100.00%,100.00%,+0.00 pts,50.00%,50.00%,+0.00 pts

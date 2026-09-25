@@ -1,0 +1,13 @@
+Track,System,R@2kt,R@5kt,R@100,CFR
+bn,Baseline: S3 (MT Dense),62.82%,75.32%,87.50%,12.50%
+bn,Six-Channel Hybrid (Top-100 Pool),61.54%,75.00%,86.54%,13.46%
+bn,Six-Channel Hybrid (Top-200 Pool),61.54%,75.00%,86.86%,13.14%
+bn,Reranked Baseline: R-S3 (Top-100),66.67%,76.28%,85.90%,14.10%
+bn,Reranked Six-Channel (Top-100),66.03%,75.96%,86.54%,13.46%
+bn,Reranked Six-Channel (Top-200),66.67%,75.64%,86.86%,13.14%
+te,Baseline: S1 (Zero-Shot Dense),57.98%,70.17%,85.29%,14.71%
+te,Six-Channel Hybrid (Top-100 Pool),57.14%,69.33%,82.77%,17.23%
+te,Six-Channel Hybrid (Top-200 Pool),57.14%,69.33%,85.29%,14.71%
+te,Reranked Baseline: R-S1 (Top-100),63.03%,71.43%,83.61%,16.39%
+te,Reranked Six-Channel (Top-100),62.61%,69.75%,82.77%,17.23%
+te,Reranked Six-Channel (Top-200),62.18%,69.33%,85.29%,14.71%

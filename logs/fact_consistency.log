@@ -1,0 +1,37 @@
+2026-09-05 22:33:52,772 | fact_consistency | INFO | [indicbart/bengali] scoring fact consistency for 72 examples
+2026-09-05 22:33:52,776 | fact_consistency | INFO | [indicbart/bengali] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/indicbart__bengali__consistency.jsonl
+2026-09-05 22:33:52,783 | fact_consistency | INFO | [indicbart/hindi] scoring fact consistency for 500 examples
+2026-09-05 22:33:52,796 | fact_consistency | INFO | [indicbart/hindi] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/indicbart__hindi__consistency.jsonl
+2026-09-05 22:33:52,798 | fact_consistency | INFO | [lead_baseline/bengali] scoring fact consistency for 72 examples
+2026-09-05 22:33:52,800 | fact_consistency | INFO | [lead_baseline/bengali] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/lead_baseline__bengali__consistency.jsonl
+2026-09-05 22:33:52,808 | fact_consistency | INFO | [lead_baseline/english] scoring fact consistency for 500 examples
+2026-09-05 22:33:52,823 | fact_consistency | INFO | [lead_baseline/english] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/lead_baseline__english__consistency.jsonl
+2026-09-05 22:33:52,830 | fact_consistency | INFO | [lead_baseline/hindi] scoring fact consistency for 500 examples
+2026-09-05 22:33:52,841 | fact_consistency | INFO | [lead_baseline/hindi] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/lead_baseline__hindi__consistency.jsonl
+2026-09-05 22:33:52,843 | fact_consistency | INFO | [mt5_xlsum/bengali] scoring fact consistency for 72 examples
+2026-09-05 22:33:52,846 | fact_consistency | INFO | [mt5_xlsum/bengali] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/mt5_xlsum__bengali__consistency.jsonl
+2026-09-05 22:33:52,853 | fact_consistency | INFO | [mt5_xlsum/english] scoring fact consistency for 500 examples
+2026-09-05 22:33:52,867 | fact_consistency | INFO | [mt5_xlsum/english] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/mt5_xlsum__english__consistency.jsonl
+2026-09-05 22:33:52,873 | fact_consistency | INFO | [mt5_xlsum/hindi] scoring fact consistency for 500 examples
+2026-09-05 22:33:52,884 | fact_consistency | INFO | [mt5_xlsum/hindi] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/mt5_xlsum__hindi__consistency.jsonl
+2026-09-05 22:33:53,962 | fact_consistency | INFO | Wrote per-system/per-language fact consistency summary -> /Home/kshitij22256/incon2026/outputs/fact_consistency_summary.csv
+2026-09-05 22:33:53,962 | fact_consistency | INFO | NOTE: winner_flip_suspected is a heuristic proximity signal, not a validated relation extractor. Treat it as a triage signal for selecting examples for human/LLM-judge review in phase 3, not as a standalone factuality metric in the paper's headline results.
+2026-09-05 23:29:55,249 | fact_consistency | INFO | [indicbart/bengali] scoring fact consistency for 500 examples
+2026-09-05 23:30:39,395 | fact_consistency | INFO | [indicbart/bengali] scoring fact consistency for 500 examples
+2026-09-05 23:30:39,418 | fact_consistency | INFO | [indicbart/bengali] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/indicbart__bengali__consistency.jsonl
+2026-09-05 23:30:39,424 | fact_consistency | INFO | [indicbart/hindi] scoring fact consistency for 500 examples
+2026-09-05 23:30:39,440 | fact_consistency | INFO | [indicbart/hindi] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/indicbart__hindi__consistency.jsonl
+2026-09-05 23:30:39,448 | fact_consistency | INFO | [lead_baseline/bengali] scoring fact consistency for 500 examples
+2026-09-05 23:30:39,464 | fact_consistency | INFO | [lead_baseline/bengali] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/lead_baseline__bengali__consistency.jsonl
+2026-09-05 23:30:39,474 | fact_consistency | INFO | [lead_baseline/english] scoring fact consistency for 500 examples
+2026-09-05 23:30:39,493 | fact_consistency | INFO | [lead_baseline/english] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/lead_baseline__english__consistency.jsonl
+2026-09-05 23:30:39,499 | fact_consistency | INFO | [lead_baseline/hindi] scoring fact consistency for 500 examples
+2026-09-05 23:30:39,515 | fact_consistency | INFO | [lead_baseline/hindi] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/lead_baseline__hindi__consistency.jsonl
+2026-09-05 23:30:39,527 | fact_consistency | INFO | [mt5_xlsum/bengali] scoring fact consistency for 500 examples
+2026-09-05 23:30:39,548 | fact_consistency | INFO | [mt5_xlsum/bengali] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/mt5_xlsum__bengali__consistency.jsonl
+2026-09-05 23:30:39,555 | fact_consistency | INFO | [mt5_xlsum/english] scoring fact consistency for 500 examples
+2026-09-05 23:30:39,572 | fact_consistency | INFO | [mt5_xlsum/english] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/mt5_xlsum__english__consistency.jsonl
+2026-09-05 23:30:39,579 | fact_consistency | INFO | [mt5_xlsum/hindi] scoring fact consistency for 500 examples
+2026-09-05 23:30:39,594 | fact_consistency | INFO | [mt5_xlsum/hindi] wrote fact consistency -> /Home/kshitij22256/incon2026/outputs/fact_consistency/mt5_xlsum__hindi__consistency.jsonl
+2026-09-05 23:30:40,122 | fact_consistency | INFO | Wrote per-system/per-language fact consistency summary -> /Home/kshitij22256/incon2026/outputs/fact_consistency_summary.csv
+2026-09-05 23:30:40,123 | fact_consistency | INFO | NOTE: winner_flip_suspected is a heuristic proximity signal, not a validated relation extractor. Treat it as a triage signal for selecting examples for human/LLM-judge review in phase 3, not as a standalone factuality metric in the paper's headline results.

@@ -1,0 +1,11 @@
+Track,Predictor,AUROC,AURC,Risk @ 50% Coverage,Risk @ 100% Coverage
+bn,(a) Cross-channel Overlap (a3),0.6036,0.1641,17.95%,23.72%
+bn,(b) Dense Score NQC,0.5848,0.1794,18.59%,23.72%
+bn,(c) Reranker Margin (top1 - top2),0.5512,0.1907,23.72%,23.72%
+bn,(d) Reranker Top-1 Score,0.7555,0.1091,9.62%,23.72%
+bn,(e) Logistic Regression OOF (a-c),0.5732,0.1841,20.51%,23.72%
+te,(a) Cross-channel Overlap (a3),0.6192,0.1894,18.49%,28.57%
+te,(b) Dense Score NQC,0.5936,0.2063,23.53%,28.57%
+te,(c) Reranker Margin (top1 - top2),0.4968,0.2630,28.57%,28.57%
+te,(d) Reranker Top-1 Score,0.7744,0.1279,11.76%,28.57%
+te,(e) Logistic Regression OOF (a-c),0.5692,0.2195,22.69%,28.57%

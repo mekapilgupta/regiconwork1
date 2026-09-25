@@ -1,0 +1,106 @@
+2026-09-05 22:34:14,716 | llm_judge | INFO | Budget tracker initialized. Spent $0.0000 of $5.00 cap (0 calls, $5.0000 remaining).
+2026-09-05 22:34:14,832 | llm_judge | INFO | Planned 320 total LLM-judge calls across all systems/languages.
+2026-09-05 22:34:14,833 | llm_judge | INFO | Projected worst-case cost for full plan: $1.2800 (cap: $5.00)
+2026-09-05 22:34:14,833 | llm_judge | INFO | Dry run complete, no API calls made.
+2026-09-05 22:34:35,587 | llm_judge | INFO | Budget tracker initialized. Spent $0.0000 of $5.00 cap (0 calls, $5.0000 remaining).
+2026-09-05 22:34:35,693 | llm_judge | INFO | Planned 320 total LLM-judge calls across all systems/languages.
+2026-09-05 22:34:35,693 | llm_judge | INFO | Projected worst-case cost for full plan: $1.2800 (cap: $5.00)
+2026-09-05 22:34:36,069 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44707448'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,121 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44055048'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,165 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-48658994'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,221 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-51723093'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,272 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44640577'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,323 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44598319'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,371 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-49027287'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,417 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-46969932'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,463 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44672333'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,516 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44842983'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,575 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-49912960'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,622 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-48752748'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,668 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-43222719'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,718 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-42855963'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,760 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-37900520'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,813 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44996318'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,855 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-50242731'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,914 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-48581152'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,960 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-41795196'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:36,999 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-49047322'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,048 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-54969744'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,094 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-43940544'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,143 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-48352940'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,192 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-55226972'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,235 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-54982872'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,278 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-50572600'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,321 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-49543853'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,365 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-48671908'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,407 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-54863197'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,457 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-40174511'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,499 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-49040555'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,545 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', '150608_pg_bangladesh_india_transport'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,589 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-50234771'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,632 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44494448'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,668 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44919573'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,709 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-43170672'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,757 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-44191482'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,798 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-48108387'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:34:37,852 | llm_judge | ERROR | Call failed for ('indicbart', 'bengali', 'news-48556580'): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-09-05 22:38:15,531 | llm_judge | INFO | Budget tracker initialized. Spent $0.0000 of $10.00 cap (0 calls, $10.0000 remaining).
+2026-09-05 22:38:15,639 | llm_judge | INFO | Planned 320 total LLM-judge calls across all systems/languages.
+2026-09-05 22:38:15,639 | llm_judge | INFO | Projected worst-case cost for full plan: $1.2800 (cap: $10.00)
+2026-09-05 22:38:15,639 | llm_judge | INFO | Dry run complete, no API calls made.
+2026-09-05 22:38:28,636 | llm_judge | INFO | Budget tracker initialized. Spent $0.0000 of $10.00 cap (0 calls, $10.0000 remaining).
+2026-09-05 22:38:28,740 | llm_judge | INFO | Planned 320 total LLM-judge calls across all systems/languages.
+2026-09-05 22:38:28,740 | llm_judge | INFO | Projected worst-case cost for full plan: $1.2800 (cap: $10.00)
+2026-09-05 22:38:28,745 | llm_judge | INFO | Resuming: 0 examples already judged.
+2026-09-05 22:40:48,916 | llm_judge | INFO | Budget tracker initialized. Spent $0.0066 of $10.00 cap (3 calls, $9.9934 remaining).
+2026-09-05 22:40:49,035 | llm_judge | INFO | Planned 320 total LLM-judge calls across all systems/languages.
+2026-09-05 22:40:49,035 | llm_judge | INFO | Projected worst-case cost for full plan: $1.2800 (cap: $10.00)
+2026-09-05 22:40:49,040 | llm_judge | INFO | Resuming: 2 examples already judged.
+2026-09-05 22:42:25,583 | llm_judge | INFO | Judged 10 examples. Spent $0.0316 of $10.00 cap (13 calls, $9.9684 remaining).
+2026-09-05 22:44:26,744 | llm_judge | INFO | Budget tracker initialized. Spent $0.0380 of $10.00 cap (15 calls, $9.9620 remaining).
+2026-09-05 22:44:26,842 | llm_judge | INFO | Planned 320 total LLM-judge calls across all systems/languages.
+2026-09-05 22:44:26,842 | llm_judge | INFO | Projected worst-case cost for full plan: $1.2800 (cap: $10.00)
+2026-09-05 22:44:26,842 | llm_judge | INFO | Dry run complete, no API calls made.
+2026-09-05 22:44:37,802 | llm_judge | INFO | Budget tracker initialized. Spent $0.0380 of $10.00 cap (15 calls, $9.9620 remaining).
+2026-09-05 22:44:37,897 | llm_judge | INFO | Planned 320 total LLM-judge calls across all systems/languages.
+2026-09-05 22:44:37,898 | llm_judge | INFO | Projected worst-case cost for full plan: $1.2800 (cap: $10.00)
+2026-09-05 22:44:37,903 | llm_judge | INFO | Resuming: 12 valid examples already judged. Cleaned any null/failed entries.
+2026-09-05 22:44:37,904 | llm_judge | INFO | Dispatching 308 items across 8 worker threads...
+2026-09-05 22:45:03,136 | llm_judge | ERROR | Failed to obtain valid verdict for ('indicbart', 'bengali', 'news-43222719') after retries.
+2026-09-05 22:45:42,714 | llm_judge | ERROR | Failed to obtain valid verdict for ('indicbart', 'bengali', 'news-44191482') after retries.
+2026-09-05 22:48:19,990 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'bengali', 'news-48658994') after retries.
+2026-09-05 22:48:19,995 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'bengali', 'news-44598319') after retries.
+2026-09-05 22:48:44,993 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'bengali', 'news-41795196') after retries.
+2026-09-05 22:48:46,360 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'bengali', 'news-43940544') after retries.
+2026-09-05 22:49:29,268 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'uk-wales-45473198') after retries.
+2026-09-05 22:49:30,207 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'world-asia-19854297') after retries.
+2026-09-05 22:49:52,941 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'uk-england-45527695') after retries.
+2026-09-05 22:49:59,824 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'uk-wales-south-east-wales-11521339') after retries.
+2026-09-05 22:49:59,952 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'uk-england-london-54846278') after retries.
+2026-09-05 22:50:39,975 | llm_judge | INFO | Done. Successfully judged 308 examples this run. Spent $0.2966 of $10.00 cap (378 calls, $9.7034 remaining).
+2026-09-05 22:50:39,976 | llm_judge | INFO | Results saved to -> /Home/kshitij22256/incon2026/outputs/llm_judge_results.jsonl
+2026-09-05 23:31:50,768 | llm_judge | INFO | Budget tracker initialized. Spent $0.5049 of $10.00 cap (1810 calls, $9.4951 remaining).
+2026-09-05 23:31:50,951 | llm_judge | INFO | Planned 320 total LLM-judge calls across all systems/languages.
+2026-09-05 23:31:50,951 | llm_judge | INFO | Projected worst-case cost for full plan: $1.2800 (cap: $10.00)
+2026-09-05 23:31:50,957 | llm_judge | INFO | Overwriting previous judge file -> /Home/kshitij22256/incon2026/outputs/llm_judge_results.jsonl
+2026-09-05 23:31:50,957 | llm_judge | INFO | Dispatching 320 items across 8 worker threads using openai/gpt-5.6-luna...
+2026-09-05 23:33:16,652 | llm_judge | ERROR | Failed to obtain valid verdict for ('indicbart', 'hindi', '121129_pil_against_it_act_sdp') after retries.
+2026-09-05 23:36:14,139 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'bengali', 'news-50304898') after retries.
+2026-09-05 23:36:15,268 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'bengali', 'news-46819571') after retries.
+2026-09-05 23:36:30,132 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'bengali', 'news-44437068') after retries.
+2026-09-05 23:36:43,085 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'uk-politics-22597203') after retries.
+2026-09-05 23:37:05,894 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'world-europe-isle-of-man-46264857') after retries.
+2026-09-05 23:37:07,029 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'world-42639877') after retries.
+2026-09-05 23:38:16,617 | llm_judge | INFO | Budget tracker initialized. Spent $0.7832 of $10.00 cap (2137 calls, $9.2168 remaining).
+2026-09-05 23:38:16,798 | llm_judge | INFO | Planned 320 total LLM-judge calls across all systems/languages.
+2026-09-05 23:38:16,798 | llm_judge | INFO | Projected worst-case cost for full plan: $1.2800 (cap: $10.00)
+2026-09-05 23:38:16,809 | llm_judge | INFO | Overwriting previous judge file -> /Home/kshitij22256/incon2026/outputs/llm_judge_results.jsonl
+2026-09-05 23:38:16,809 | llm_judge | INFO | Dispatching 320 items across 8 worker threads using openai/gpt-5.6-luna...
+2026-09-05 23:39:24,273 | llm_judge | ERROR | Failed to obtain valid verdict for ('indicbart', 'hindi', '070407_maoist_attack') after retries.
+2026-09-05 23:42:48,216 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'bengali', 'news-50304898') after retries.
+2026-09-05 23:43:12,230 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'uk-politics-22597203') after retries.
+2026-09-05 23:43:15,814 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'uk-england-hereford-worcester-49468338') after retries.
+2026-09-05 23:43:40,079 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'english', 'uk-england-surrey-13916058') after retries.
+2026-09-05 23:44:33,964 | llm_judge | ERROR | Failed to obtain valid verdict for ('mt5_xlsum', 'hindi', '050708_advani_ayodhya') after retries.
+2026-09-05 23:44:41,215 | llm_judge | INFO | Done. Successfully judged 320 examples this run. Spent $1.1876 of $10.00 cap (2500 calls, $8.8124 remaining).
+2026-09-05 23:44:41,215 | llm_judge | INFO | Results saved to -> /Home/kshitij22256/incon2026/outputs/llm_judge_results.jsonl

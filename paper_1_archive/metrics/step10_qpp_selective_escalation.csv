@@ -1,0 +1,11 @@
+Track,Strategy,R@5kt,CFR,Fire Rate (Tier 2),Reranker Calls/Query,Trusted Tier Error,Note
+bn,Tier 1: Never Escalate (Base Stack),76.28%,14.10%,0.0%,100.0,23.72%,Base Reference
+bn,Tier 2: Always Escalate (Union-200),75.64%,12.18%,100.0%,200.0,-,2x GPU Cost
+bn,Idea 4: Conformal Gated Escalation,75.96%,12.50%,56.1%,156.1,18.25% (<= 10%),Saves 43.9% Calls
+bn,Control: Random Gate (Matched Fire Rate),75.96%,13.14%,56.1%,156.1,-,Random ablation
+bn,ORACLE: Perfect Gated Escalation,76.60%,14.10%,0.3%,100.3,0.0%,Theoretical Ceiling
+te,Tier 1: Never Escalate (Base Stack),71.43%,16.39%,0.0%,100.0,28.57%,Base Reference
+te,Tier 2: Always Escalate (Union-200),69.75%,15.55%,100.0%,200.0,-,2x GPU Cost
+te,Idea 4: Conformal Gated Escalation,70.17%,15.55%,87.8%,187.8,17.24% (<= 10%),Saves 12.2% Calls
+te,Control: Random Gate (Matched Fire Rate),70.17%,15.55%,87.8%,187.8,-,Random ablation
+te,ORACLE: Perfect Gated Escalation,71.85%,16.39%,0.4%,100.4,0.0%,Theoretical Ceiling

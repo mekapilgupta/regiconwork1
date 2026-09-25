@@ -1,0 +1,51 @@
+{
+  "num_docs": 21015324,
+  "sanity_checks": {
+    "ankara_university": true,
+    "mohenjo_daro_indus": true,
+    "riyadh_capital": true
+  },
+  "samples": [
+    {
+      "docid": 100,
+      "content_snippet": "\"Allen Ginsberg\"\nharboring stolen goods in his dorm room. It was noted that the stolen property was not his, but belonged to an acquaintance. Ginsberg"
+    },
+    {
+      "docid": 5000,
+      "content_snippet": "Ashoka\nthree colours, Saffron, White and Green with the Ashoka Chakra was selected. Ashoka is often credited with the beginning of stone architecture "
+    },
+    {
+      "docid": 100000,
+      "content_snippet": "\"Dale Earnhardt\"\nNo. 3. Rudd went to Bud Moore's No. 15, replacing Earnhardt. Wrangler sponsored both drivers at their respective teams. During the 19"
+    },
+    {
+      "docid": 500000,
+      "content_snippet": "\"Broca's area\"\nThe recent finding that Broca's area is active when people are observing others engaged in meaningful action is evidence in support of "
+    },
+    {
+      "docid": 1000000,
+      "content_snippet": "\"E.T. the Extra-Terrestrial (video game)\"\ndesign the structure of the game and segmented the concept into four ideas: world, objective, path to achiev"
+    },
+    {
+      "docid": 5000000,
+      "content_snippet": "\"Whitewater State Park\"\nfloods rapidly overflowed the river and spread across the valley floors. About 500 campers were staying in the park at the tim"
+    },
+    {
+      "docid": 10000000,
+      "content_snippet": "\"Ibrahim Hananu\"\nyears. Nonetheless, the French commissioner pardoned him which refer to the French relationship with the assassination attempt. Hanan"
+    },
+    {
+      "docid": 15000000,
+      "content_snippet": "\"Toms River, New Jersey\"\nfeatured the slogan \"\"Toms River YES\"\", signifying a yes vote for the name change, and the name was officially changed on Nov"
+    },
+    {
+      "docid": 18000000,
+      "content_snippet": "\"Ao Oni (film)\"\nback to the terrified Anna in the room, it suddenly switches to the time where Anna spends her time with Shun playing the escape game "
+    },
+    {
+      "docid": 20000000,
+      "content_snippet": "\"Scientology front groups\"\nNew Cult Awareness Network. In 1998, the \"\"Boston Herald\"\" identified Narconon and the World Literacy Crusade as front grou"
+    }
+  ],
+  "index_path": "/home/kshitij22256/.cache/pyserini/indexes/lucene-index.wikipedia-dpr-100w.20210120.d1b9e6.7b58c08da992b2ea7e96667f0b176651"
+}

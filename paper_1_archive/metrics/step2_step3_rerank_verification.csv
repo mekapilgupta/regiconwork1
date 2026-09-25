@@ -1,0 +1,19 @@
+track,system,R@2kt,R@5kt,CFR
+bn,R-S1,66.03,74.68,16.03
+bn,R-S3,66.67,76.28,14.1
+bn,R-RRF,66.35,75.0,13.46
+bn,R-UNION,66.67,75.32,13.46
+bn,R-UNION + A (Answer-Type),65.71,74.68,13.46
+bn,R-UNION + C (Constraints),65.71,75.0,13.46
+bn,R-UNION + G (Lexical Entity),65.38,74.68,13.46
+bn,R-UNION + V (Coverage),66.03,74.68,13.46
+bn,R-UNION + All (5-Fold CV OOF),65.38,74.68,13.46
+te,R-S1,63.03,71.43,16.39
+te,R-S3,62.61,69.75,17.65
+te,R-RRF,63.03,70.59,17.65
+te,R-UNION,63.03,71.01,17.65
+te,R-UNION + A (Answer-Type),63.45,71.01,17.65
+te,R-UNION + C (Constraints),62.61,71.01,17.65
+te,R-UNION + G (Lexical Entity),61.76,71.01,17.65
+te,R-UNION + V (Coverage),63.87,70.59,17.65
+te,R-UNION + All (5-Fold CV OOF),63.45,70.59,17.65

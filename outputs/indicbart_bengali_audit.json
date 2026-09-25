@@ -1,0 +1,10 @@
+{
+  "model_key": "indicbart",
+  "model_repo": "ai4bharat/IndicBART",
+  "tested_input": "ইন্দোনেশিয়ার সুরাবায়া প্রদেশে তিনটি গীর্জায় হামলায় নিহত হয়েছেন অন্তত ১৩জন। ইসলামিক স্টেট গোষ্ঠী হামলার দায় স্বীকার করেছে।",
+  "raw_decoded_output": "<s> ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़",
+  "cleaned_output": "<s> ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़ ख़",
+  "is_malformed": false,
+  "is_wrong_script": true,
+  "root_cause_diagnosis": "IndicBART was pretrained with multispelling and unified Indic script representations. Without language-specific prefixing or forced target language BOS token conditioning during decoding, the unguided beam search degenerates into hyphen repetition loops and Devanagari fallback on Bengali inputs. This constitutes an implementation/model-compatibility failure mode, distinct from fluent semantic hallucination."
+}

@@ -1,0 +1,3 @@
+Track,Encoder,S1 (Zero-Shot),S3 (MT),M1 (CV beta),M1 Delta vs Best Single
+bn,mE5-small,61.54%,72.44%,72.12%,-0.32 pts
+te,mE5-small,61.34%,67.65%,65.97%,-1.68 pts

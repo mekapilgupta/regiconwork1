@@ -1,0 +1,9 @@
+system,language,person_name_precision,person_name_recall,org_name_precision,org_name_recall,numeric_quantity_precision,numeric_quantity_recall,date_precision,date_recall,winner_flip_suspected_rate
+indicbart,bengali,,,,,1.0,0.004234026173979984,,0.0,
+indicbart,hindi,,,,,0.9987437185929648,0.2275531278642337,,,
+lead_baseline,bengali,,,,,1.0,0.1393126311590918,,0.0,
+lead_baseline,english,1.0,0.25186855804445357,1.0,0.2754538818957638,1.0,0.2698602449809169,1.0,0.28188131313131315,0.2
+lead_baseline,hindi,,,,,1.0,0.2205393887632885,,,
+mt5_xlsum,bengali,,,,,0.8994252873563218,0.026228678704207628,,0.0,
+mt5_xlsum,english,0.37315634218289084,0.019292932493555494,0.5591397849462366,0.0459319566784769,0.6428571428571429,0.017022112946620607,,0.0,
+mt5_xlsum,hindi,,,,,0.6777777777777778,0.030355593701270955,,,

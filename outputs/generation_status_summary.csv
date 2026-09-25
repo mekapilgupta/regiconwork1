@@ -1,0 +1,10 @@
+system,language,valid,All
+indicbart,bengali,500,500
+indicbart,hindi,500,500
+lead_baseline,bengali,500,500
+lead_baseline,english,500,500
+lead_baseline,hindi,500,500
+mt5_xlsum,bengali,500,500
+mt5_xlsum,english,500,500
+mt5_xlsum,hindi,500,500
+All,,4000,4000

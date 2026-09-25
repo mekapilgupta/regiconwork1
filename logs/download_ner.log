@@ -1,0 +1,7 @@
+2026-09-05 21:39:23,003 | download_ner | INFO | Downloading model ai4bharat/IndicNER -> /Home/kshitij22256/incon2026/models/indicner
+2026-09-05 21:40:27,974 | download_ner | INFO | [skip] ai4bharat/IndicNER already at /Home/kshitij22256/incon2026/models/indicner
+2026-09-05 21:40:31,211 | download_ner | INFO | [skip] spaCy model en_core_web_sm already installed
+2026-09-05 21:44:41,977 | download_ner | INFO | Downloading model Davlan/bert-base-multilingual-cased-ner-hrl -> /Home/kshitij22256/incon2026/models/indicner
+2026-09-05 21:45:15,869 | download_ner | INFO | [skip] spaCy model en_core_web_sm already installed
+2026-09-05 21:52:34,578 | download_ner | INFO | Downloading model google/muril-base-cased -> /Home/kshitij22256/incon2026/models/indicner
+2026-09-05 21:53:26,343 | download_ner | INFO | [skip] spaCy model en_core_web_sm already installed

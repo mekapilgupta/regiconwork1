@@ -1,0 +1,9 @@
+system,language,n_judged,fully_factual_count,fully_factual_pct,output_level_errors_count,output_level_errors_pct,summary_level_factual_errors_count,summary_level_factual_errors_pct,err_person_identity,err_organization_identity,err_location_entity,err_event_relation,err_numeric_fact,err_temporal_fact,err_unsupported_claim,err_omission,err_contradiction
+indicbart,bengali,40,0,0.0,39,97.5,1,2.5,0,0,0,0,0,0,0,0,0
+indicbart,hindi,39,4,10.3,2,5.1,33,84.6,1,0,1,0,0,0,0,22,0
+lead_baseline,bengali,40,35,87.5,0,0.0,5,12.5,0,0,0,0,0,0,0,5,0
+lead_baseline,english,40,34,85.0,1,2.5,5,12.5,0,0,0,0,0,0,0,5,0
+lead_baseline,hindi,40,32,80.0,0,0.0,8,20.0,0,0,0,0,0,0,0,8,0
+mt5_xlsum,bengali,39,18,46.2,0,0.0,21,53.8,2,1,5,9,1,3,0,0,0
+mt5_xlsum,english,37,11,29.7,0,0.0,26,70.3,1,0,1,6,4,3,10,1,0
+mt5_xlsum,hindi,39,16,41.0,0,0.0,23,59.0,2,1,2,13,0,1,4,0,0

@@ -1,0 +1,5 @@
+{
+  "model_id": "intfloat/multilingual-e5-small",
+  "has_gpu": false,
+  "pinned_by": "01_check_env.py"
+}

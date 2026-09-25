@@ -1,0 +1,9 @@
+system,language,total_outputs,valid_count,valid_pct,malformed_count,malformed_pct,wrong_script_count,wrong_script_pct,truncated_count,truncated_pct,empty_count,empty_pct,generation_error_count,generation_error_pct
+indicbart,bengali,500,6,1.2,349,69.8,0,0.0,145,29.0,0,0.0,0,0.0
+indicbart,hindi,500,483,96.6,17,3.4,0,0.0,0,0.0,0,0.0,0,0.0
+lead_baseline,bengali,500,500,100.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+lead_baseline,english,500,496,99.2,4,0.8,0,0.0,0,0.0,0,0.0,0,0.0
+lead_baseline,hindi,500,499,99.8,1,0.2,0,0.0,0,0.0,0,0.0,0,0.0
+mt5_xlsum,bengali,500,500,100.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+mt5_xlsum,english,500,500,100.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+mt5_xlsum,hindi,500,500,100.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0

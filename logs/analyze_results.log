@@ -1,0 +1,36 @@
+2026-09-05 22:53:02,064 | analyze_results | INFO | Wrote merged results -> /Home/kshitij22256/incon2026/outputs/merged_results.csv
+2026-09-05 22:53:02,185 | analyze_results | INFO | Wrote correlation table -> /Home/kshitij22256/incon2026/outputs/correlation_table.csv
+2026-09-05 22:53:02,843 | analyze_results | INFO | Wrote headline plot -> /Home/kshitij22256/incon2026/outputs/rouge_vs_factuality.png
+2026-09-05 22:53:02,856 | analyze_results | INFO | Wrote final report -> /Home/kshitij22256/incon2026/outputs/final_report.md
+2026-09-05 23:45:15,862 | analyze_results | INFO | Wrote merged results (4000 rows) -> /Home/kshitij22256/incon2026/outputs/merged_results.csv
+2026-09-05 23:45:16,254 | analyze_results | INFO | Wrote comprehensive correlation table -> /Home/kshitij22256/incon2026/outputs/correlation_table.csv
+2026-09-05 23:45:16,864 | analyze_results | INFO | Saved figure -> /Home/kshitij22256/incon2026/outputs/rouge_vs_factuality.png
+2026-09-05 23:45:27,185 | analyze_results | INFO | Wrote merged results (4000 rows) -> /Home/kshitij22256/incon2026/outputs/merged_results.csv
+2026-09-05 23:45:27,577 | analyze_results | INFO | Wrote comprehensive correlation table -> /Home/kshitij22256/incon2026/outputs/correlation_table.csv
+2026-09-05 23:45:28,176 | analyze_results | INFO | Saved figure -> /Home/kshitij22256/incon2026/outputs/rouge_vs_factuality.png
+2026-09-05 23:45:28,199 | analyze_results | INFO | Saved report -> /Home/kshitij22256/incon2026/outputs/final_report.md
+2026-09-05 23:52:40,980 | analyze_results | INFO | Loaded manifest with 4000 total evaluated summaries.
+2026-09-05 23:52:40,984 | analyze_results | INFO | Found 314 LLM-judged summaries.
+2026-09-05 23:53:06,839 | analyze_results | INFO | Loaded manifest with 4000 total evaluated summaries.
+2026-09-05 23:53:06,842 | analyze_results | INFO | Found 314 LLM-judged summaries.
+2026-09-05 23:53:07,252 | analyze_results | INFO | Saved comprehensive summary-level correlation table -> /Home/kshitij22256/incon2026/outputs/correlation_table.csv
+2026-09-05 23:53:07,323 | analyze_results | INFO | Saved multivariable regression results -> /Home/kshitij22256/incon2026/outputs/regression_results.txt
+2026-09-05 23:53:07,982 | analyze_results | INFO | Saved figure -> /Home/kshitij22256/incon2026/outputs/rouge_vs_factuality.png
+2026-09-06 00:05:53,249 | analyze_results | INFO | Loaded manifest with 4000 total evaluated summaries.
+2026-09-06 00:05:53,253 | analyze_results | INFO | Found 314 LLM-judged summaries.
+2026-09-06 00:05:53,276 | analyze_results | INFO | Saved generation validity table -> /Home/kshitij22256/incon2026/outputs/generation_validity_table.csv
+2026-09-06 00:05:53,321 | analyze_results | INFO | Saved error taxonomy table -> /Home/kshitij22256/incon2026/outputs/error_taxonomy_table.csv
+2026-09-06 00:06:24,324 | analyze_results | INFO | Loaded manifest with 4000 total evaluated summaries.
+2026-09-06 00:06:24,329 | analyze_results | INFO | Found 314 LLM-judged summaries.
+2026-09-06 00:06:24,352 | analyze_results | INFO | Saved generation validity table -> /Home/kshitij22256/incon2026/outputs/generation_validity_table.csv
+2026-09-06 00:06:24,397 | analyze_results | INFO | Saved error taxonomy table -> /Home/kshitij22256/incon2026/outputs/error_taxonomy_table.csv
+2026-09-06 00:06:24,854 | analyze_results | INFO | Saved comprehensive summary-level correlation table -> /Home/kshitij22256/incon2026/outputs/correlation_table.csv
+2026-09-06 00:06:24,865 | analyze_results | INFO | Saved multivariable regression results -> /Home/kshitij22256/incon2026/outputs/regression_results.txt
+2026-09-06 00:06:25,503 | analyze_results | INFO | Saved figure -> /Home/kshitij22256/incon2026/outputs/rouge_vs_factuality.png
+2026-09-06 00:07:24,295 | analyze_results | INFO | Loaded manifest with 4000 total evaluated summaries.
+2026-09-06 00:07:24,299 | analyze_results | INFO | Found 314 LLM-judged summaries.
+2026-09-06 00:07:24,324 | analyze_results | INFO | Saved generation validity table -> /Home/kshitij22256/incon2026/outputs/generation_validity_table.csv
+2026-09-06 00:07:24,370 | analyze_results | INFO | Saved error taxonomy table -> /Home/kshitij22256/incon2026/outputs/error_taxonomy_table.csv
+2026-09-06 00:07:24,835 | analyze_results | INFO | Saved comprehensive summary-level correlation table -> /Home/kshitij22256/incon2026/outputs/correlation_table.csv
+2026-09-06 00:07:24,845 | analyze_results | INFO | Saved multivariable regression results -> /Home/kshitij22256/incon2026/outputs/regression_results.txt
+2026-09-06 00:07:25,489 | analyze_results | INFO | Saved figure -> /Home/kshitij22256/incon2026/outputs/rouge_vs_factuality.png

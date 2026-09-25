@@ -1,0 +1,32 @@
+2026-09-05 21:54:56,755 | filter_sports | INFO | [english] sports article counts by split: {'train': 0, 'test': 0, 'validation': 0}
+2026-09-05 21:54:56,756 | filter_sports | WARNING | [english] FEASIBILITY GATE FAILED: only 0 sports test articles found (< 300 required). Consider swapping this language for another Indic language with better sports coverage.
+2026-09-05 21:54:56,758 | filter_sports | INFO | [english] wrote 0 filtered test articles -> /Home/kshitij22256/incon2026/data/sports_filtered/english_test.jsonl
+2026-09-05 21:54:59,021 | filter_sports | INFO | [hindi] sports article counts by split: {'train': 5488, 'test': 795, 'validation': 755}
+2026-09-05 21:54:59,021 | filter_sports | INFO | [hindi] feasibility gate passed: 795 sports test articles.
+2026-09-05 21:54:59,022 | filter_sports | INFO | [hindi] subsampled test split to 500 articles (seed=42).
+2026-09-05 21:54:59,039 | filter_sports | INFO | [hindi] wrote 500 filtered test articles -> /Home/kshitij22256/incon2026/data/sports_filtered/hindi_test.jsonl
+2026-09-05 21:54:59,345 | filter_sports | INFO | [bengali] sports article counts by split: {'train': 0, 'test': 0, 'validation': 0}
+2026-09-05 21:54:59,345 | filter_sports | WARNING | [bengali] FEASIBILITY GATE FAILED: only 0 sports test articles found (< 300 required). Consider swapping this language for another Indic language with better sports coverage.
+2026-09-05 21:54:59,346 | filter_sports | INFO | [bengali] wrote 0 filtered test articles -> /Home/kshitij22256/incon2026/data/sports_filtered/bengali_test.jsonl
+2026-09-05 21:54:59,349 | filter_sports | INFO | === Filtering summary ===
+2026-09-05 21:54:59,349 | filter_sports | INFO | {'language': 'english', 'counts_by_split': {'train': 0, 'test': 0, 'validation': 0}, 'final_test_size': 0}
+2026-09-05 21:54:59,349 | filter_sports | INFO | {'language': 'hindi', 'counts_by_split': {'train': 5488, 'test': 795, 'validation': 755}, 'final_test_size': 500}
+2026-09-05 21:54:59,349 | filter_sports | INFO | {'language': 'bengali', 'counts_by_split': {'train': 0, 'test': 0, 'validation': 0}, 'final_test_size': 0}
+2026-09-05 22:01:54,988 | filter_sports | INFO | [english] sports article counts by split: {'train': 16267, 'test': 597, 'validation': 598}
+2026-09-05 22:01:54,989 | filter_sports | INFO | [english] feasibility gate passed: 597 sports articles available.
+2026-09-05 22:01:54,989 | filter_sports | INFO | [english] sampled to 500 articles (seed=42).
+2026-09-05 22:01:55,003 | filter_sports | INFO | [english] wrote 500 filtered test articles -> /Home/kshitij22256/incon2026/data/sports_filtered/english_test.jsonl
+2026-09-05 22:01:57,803 | filter_sports | INFO | [hindi] sports article counts by split: {'train': 8135, 'test': 1086, 'validation': 1064}
+2026-09-05 22:01:57,803 | filter_sports | INFO | [hindi] feasibility gate passed: 1086 sports articles available.
+2026-09-05 22:01:57,803 | filter_sports | INFO | [hindi] sampled to 500 articles (seed=42).
+2026-09-05 22:01:57,820 | filter_sports | INFO | [hindi] wrote 500 filtered test articles -> /Home/kshitij22256/incon2026/data/sports_filtered/hindi_test.jsonl
+2026-09-05 22:01:58,214 | filter_sports | INFO | [bengali] sports article counts by split: {'train': 579, 'test': 72, 'validation': 71}
+2026-09-05 22:01:58,214 | filter_sports | INFO | [bengali] feasibility gate passed: 72 sports articles available.
+2026-09-05 22:01:58,217 | filter_sports | INFO | [bengali] wrote 72 filtered test articles -> /Home/kshitij22256/incon2026/data/sports_filtered/bengali_test.jsonl
+2026-09-05 22:01:58,220 | filter_sports | INFO | === Filtering summary ===
+2026-09-05 22:01:58,220 | filter_sports | INFO | {'language': 'english', 'counts_by_split': {'train': 16267, 'test': 597, 'validation': 598}, 'final_test_size': 500}
+2026-09-05 22:01:58,220 | filter_sports | INFO | {'language': 'hindi', 'counts_by_split': {'train': 8135, 'test': 1086, 'validation': 1064}, 'final_test_size': 500}
+2026-09-05 22:01:58,220 | filter_sports | INFO | {'language': 'bengali', 'counts_by_split': {'train': 579, 'test': 72, 'validation': 71}, 'final_test_size': 72}
+2026-09-05 23:15:49,614 | filter_sports | INFO | [english] Found 2391 sports candidates across splits. Selected 120 -> /Home/kshitij22256/incon2026/data/sports_filtered/english_test.jsonl
+2026-09-05 23:15:51,944 | filter_sports | INFO | [hindi] Found 8794 sports candidates across splits. Selected 120 -> /Home/kshitij22256/incon2026/data/sports_filtered/hindi_test.jsonl
+2026-09-05 23:15:52,309 | filter_sports | INFO | [bengali] Found 539 sports candidates across splits. Selected 120 -> /Home/kshitij22256/incon2026/data/sports_filtered/bengali_test.jsonl

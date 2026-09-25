@@ -1,0 +1,156 @@
+# Single source of truth for the whole pipeline.
+# Every script reads this file — change values here, not inside scripts.
+
+paths:
+  data_dir: "data"
+  models_dir: "models"
+  outputs_dir: "outputs"
+  logs_dir: "logs"
+
+# ---------------------------------------------------------------------------
+# Languages: XL-Sum language codes. English is the high-resource control.
+# Hindi + Bengali are the two Indic languages studied (swap Bengali for
+# Telugu/Tamil if a quick inspection in step 02 shows too few sports
+# articles for your chosen language — the filter script prints counts).
+# ---------------------------------------------------------------------------
+languages:
+  - code: english
+    xlsum_name: english
+    ner_backend: spacy
+  - code: hindi
+    xlsum_name: hindi
+    ner_backend: indicner
+  - code: bengali
+    xlsum_name: bengali
+    ner_backend: indicner
+
+xlsum:
+  hf_dataset_id: "csebuetnlp/xlsum"
+  # Keywords across URL, title, and article text used to identify sports articles.
+  sports_keywords:
+    english:
+      - "sport"
+      - "cricket"
+      - "football"
+      - "tennis"
+      - "hockey"
+      - "olympic"
+      - "athletics"
+      - "fifa"
+      - "premier league"
+      - "badminton"
+      - "wrestling"
+      - "boxing"
+      - "world cup"
+      - "tournament"
+      - "championship"
+      - "wicket"
+      - "goal"
+    hindi:
+      - "sport"
+      - "cricket"
+      - "football"
+      - "खेल"
+      - "क्रिकेट"
+      - "फ़ुटबॉल"
+      - "टेनिस"
+      - "हॉकी"
+      - "ओलंपिक"
+      - "विश्वकप"
+      - "मैच"
+      - "टूर्नामेंट"
+    bengali:
+      - "sport"
+      - "cricket"
+      - "football"
+      - "খেলা"
+      - "ক্রিকেট"
+      - "ফুটবল"
+      - "টেনিস"
+      - "হকি"
+      - "অলিম্পিক"
+      - "বিশ্বকাপ"
+      - "ম্যাচ"
+      - "টুর্নামেন্ট"
+  min_articles_per_language: 50   # feasibility gate
+  max_test_articles_per_language: 500   # cap inference cost; sample if more available
+  random_seed: 42
+
+# ---------------------------------------------------------------------------
+# Summarization systems to compare. All weights pre-downloaded in phase 1.
+# ---------------------------------------------------------------------------
+models:
+  lead_baseline:
+    type: lead_n
+    n_sentences: 3
+
+  mt5_xlsum:
+    type: seq2seq
+    hf_repo_id: "csebuetnlp/mT5_multilingual_XLSum"
+    local_dir: "models/mt5_xlsum"
+    max_input_tokens: 512
+    max_output_tokens: 84
+    num_beams: 4
+
+  indicbart:
+    type: seq2seq
+    hf_repo_id: "ai4bharat/IndicBART"
+    local_dir: "models/indicbart"
+    max_input_tokens: 512
+    max_output_tokens: 84
+    num_beams: 4
+    # IndicBART needs language tags; only run for Indic languages, not English.
+    applicable_languages: ["hindi", "bengali"]
+
+# ---------------------------------------------------------------------------
+# NER models for fact extraction (all run locally, offline, on GPU node)
+# ---------------------------------------------------------------------------
+ner_models:
+  spacy:
+    hf_repo_id: null            # installed via pip/spacy download in phase 1, not HF
+    spacy_model_name: "en_core_web_sm"
+  indicner:
+    hf_repo_id: "google/muril-base-cased"
+    local_dir: "models/indicner"
+
+# ---------------------------------------------------------------------------
+# Surface metrics
+# ---------------------------------------------------------------------------
+metrics:
+  rouge_types: ["rouge1", "rouge2", "rougeL"]
+  bertscore:
+    hf_repo_id: "microsoft/deberta-xlarge-mnli"   # bert_score default strong backbone
+    local_dir: "models/bertscore_backbone"
+    lang_model_map:            # bert_score model_type override per language if needed
+      english: "microsoft/deberta-xlarge-mnli"
+      hindi: "google/muril-base-cased"
+      bengali: "google/muril-base-cased"
+  chrf: true
+
+# ---------------------------------------------------------------------------
+# Fact-tuple types extracted & checked. Kept intentionally small/simple for
+# the 1-2 hour pilot: NER + regex only, no relation extraction model.
+# ---------------------------------------------------------------------------
+fact_types:
+  - person_name        # PERSON entities
+  - org_name           # ORG entities
+  - numeric_quantity   # regex: digits, percentages, monetary amounts, counts
+  - date               # regex + simple date patterns
+
+# ---------------------------------------------------------------------------
+# OpenRouter LLM judge (Phase 3 — needs internet, strictly cost-capped)
+# ---------------------------------------------------------------------------
+openrouter:
+  api_key_env_var: "LLM_API_KEY_PAPER2"
+  base_url: "https://openrouter.ai/api/v1"
+  judge_model_id: "openai/gpt-5.6-luna"
+  max_total_usd: 10.00
+  safety_margin_usd: 0.25     # stop calling once (spend + margin) >= max_total_usd
+  samples_per_language_per_system: 40   # tune down if pilot cost projection is tight
+  max_output_tokens_per_call: 200
+  temperature: 0.0
+  poll_generation_cost: true   # query OpenRouter's /generation endpoint for real cost
+
+analysis:
+  correlation_methods: ["pearson", "spearman"]
+  output_report_md: "outputs/final_report.md"

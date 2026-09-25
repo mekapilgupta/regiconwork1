@@ -1,0 +1,7 @@
+Model / Router,R@5kt (%),Delta vs Lang-Only (pts)
+S1 (Zero-Shot Dense),68.73%,-4.36
+S3 (MT Dense),72.73%,-0.36
+Uniform RRF (S1+S2+S3),70.00%,-3.09
+"Language-Only Router (bn->S3, te->S1)",73.09%,+0.00 (Baseline)
+"Learned Router (Logistic Reg, 10x 5-Fold OOF)",73.09% ± 4.36%,+0.00
+"Oracle Router ({S1, S3} Per-Query)",74.91%,+1.82

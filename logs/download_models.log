@@ -1,0 +1,8 @@
+2026-09-05 21:38:46,148 | download_models | INFO | Downloading model csebuetnlp/mT5_multilingual_XLSum -> /Home/kshitij22256/incon2026/models/mt5_xlsum
+2026-09-05 21:39:10,511 | download_models | INFO | Downloading model ai4bharat/IndicBART -> /Home/kshitij22256/incon2026/models/indicbart
+2026-09-05 21:40:27,972 | download_models | INFO | [skip] csebuetnlp/mT5_multilingual_XLSum already at /Home/kshitij22256/incon2026/models/mt5_xlsum
+2026-09-05 21:40:27,973 | download_models | INFO | [skip] ai4bharat/IndicBART already at /Home/kshitij22256/incon2026/models/indicbart
+2026-09-05 21:44:41,976 | download_models | INFO | [skip] csebuetnlp/mT5_multilingual_XLSum already at /Home/kshitij22256/incon2026/models/mt5_xlsum
+2026-09-05 21:44:41,977 | download_models | INFO | [skip] ai4bharat/IndicBART already at /Home/kshitij22256/incon2026/models/indicbart
+2026-09-05 21:52:34,577 | download_models | INFO | [skip] csebuetnlp/mT5_multilingual_XLSum already at /Home/kshitij22256/incon2026/models/mt5_xlsum
+2026-09-05 21:52:34,578 | download_models | INFO | [skip] ai4bharat/IndicBART already at /Home/kshitij22256/incon2026/models/indicbart

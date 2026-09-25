@@ -1,0 +1,15 @@
+Track,Ablation Step,R@2kt,R@5kt,R@100,CFR
+bn,1. Dense Only (C2_dense_mt),62.82%,75.32%,85.90%,14.10%
+bn,2. Dense + Sparse (MT),48.40%,64.74%,87.50%,12.50%
+bn,3. Dense + ColBERT (MT),62.82%,75.32%,85.90%,14.10%
+bn,4. All 3 Modes (q_mt: Dense+Sparse+ColBERT),53.85%,71.15%,87.50%,12.50%
+bn,5. Bilingual Concat Query (q_src + q_mt),61.86%,74.68%,85.90%,14.10%
+bn,6. All 6 Channels Hybrid (Full Fusion),59.94%,73.72%,89.10%,10.90%
+bn,7. All 6 Channels + Cross-Encoder Reranker,66.03%,75.96%,85.90%,14.10%
+te,1. Dense Only (C1_dense_src),57.98%,70.17%,83.61%,16.39%
+te,2. Dense + Sparse (MT),46.64%,60.92%,83.19%,16.81%
+te,3. Dense + ColBERT (MT),60.50%,69.33%,82.35%,17.65%
+te,4. All 3 Modes (q_mt: Dense+Sparse+ColBERT),52.10%,64.71%,83.19%,16.81%
+te,5. Bilingual Concat Query (q_src + q_mt),58.40%,70.59%,82.77%,17.23%
+te,6. All 6 Channels Hybrid (Full Fusion),55.04%,68.07%,86.13%,13.87%
+te,7. All 6 Channels + Cross-Encoder Reranker,62.61%,70.17%,82.77%,17.23%

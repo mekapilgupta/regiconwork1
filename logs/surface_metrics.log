@@ -1,0 +1,61 @@
+2026-09-05 22:25:19,339 | surface_metrics | INFO | [indicbart/bengali] scoring 72 examples
+2026-09-05 22:25:21,386 | surface_metrics | INFO | [bengali] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 22:25:25,037 | surface_metrics | INFO | [indicbart/bengali] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/indicbart__bengali__surface_metrics.jsonl
+2026-09-05 22:25:25,054 | surface_metrics | INFO | [indicbart/hindi] scoring 500 examples
+2026-09-05 22:25:25,384 | surface_metrics | INFO | [hindi] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 22:25:27,621 | surface_metrics | INFO | [indicbart/hindi] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/indicbart__hindi__surface_metrics.jsonl
+2026-09-05 22:25:27,625 | surface_metrics | INFO | [lead_baseline/bengali] scoring 72 examples
+2026-09-05 22:25:27,675 | surface_metrics | INFO | [bengali] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 22:25:29,010 | surface_metrics | INFO | [lead_baseline/bengali] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/lead_baseline__bengali__surface_metrics.jsonl
+2026-09-05 22:25:29,019 | surface_metrics | INFO | [lead_baseline/english] scoring 500 examples
+2026-09-05 22:25:29,550 | surface_metrics | INFO | [english] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/microsoft__deberta-xlarge-mnli
+2026-09-05 22:26:43,446 | surface_metrics | INFO | [indicbart/bengali] scoring 72 examples
+2026-09-05 22:26:47,086 | surface_metrics | INFO | [bengali] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 22:26:50,933 | surface_metrics | INFO | [indicbart/bengali] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/indicbart__bengali__surface_metrics.jsonl
+2026-09-05 22:26:50,951 | surface_metrics | INFO | [indicbart/hindi] scoring 500 examples
+2026-09-05 22:26:51,278 | surface_metrics | INFO | [hindi] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 22:26:53,537 | surface_metrics | INFO | [indicbart/hindi] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/indicbart__hindi__surface_metrics.jsonl
+2026-09-05 22:26:53,541 | surface_metrics | INFO | [lead_baseline/bengali] scoring 72 examples
+2026-09-05 22:26:53,591 | surface_metrics | INFO | [bengali] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 22:26:54,920 | surface_metrics | INFO | [lead_baseline/bengali] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/lead_baseline__bengali__surface_metrics.jsonl
+2026-09-05 22:26:54,929 | surface_metrics | INFO | [lead_baseline/english] scoring 500 examples
+2026-09-05 22:26:55,469 | surface_metrics | INFO | [english] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/microsoft__deberta-xlarge-mnli
+2026-09-05 22:27:03,596 | surface_metrics | INFO | [lead_baseline/english] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/lead_baseline__english__surface_metrics.jsonl
+2026-09-05 22:27:03,614 | surface_metrics | INFO | [lead_baseline/hindi] scoring 500 examples
+2026-09-05 22:27:03,938 | surface_metrics | INFO | [hindi] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 22:27:06,133 | surface_metrics | INFO | [lead_baseline/hindi] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/lead_baseline__hindi__surface_metrics.jsonl
+2026-09-05 22:27:06,137 | surface_metrics | INFO | [mt5_xlsum/bengali] scoring 72 examples
+2026-09-05 22:27:06,165 | surface_metrics | INFO | [bengali] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 22:27:07,448 | surface_metrics | INFO | [mt5_xlsum/bengali] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/mt5_xlsum__bengali__surface_metrics.jsonl
+2026-09-05 22:27:07,457 | surface_metrics | INFO | [mt5_xlsum/english] scoring 500 examples
+2026-09-05 22:27:07,715 | surface_metrics | INFO | [english] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/microsoft__deberta-xlarge-mnli
+2026-09-05 22:27:13,394 | surface_metrics | INFO | [mt5_xlsum/english] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/mt5_xlsum__english__surface_metrics.jsonl
+2026-09-05 22:27:13,410 | surface_metrics | INFO | [mt5_xlsum/hindi] scoring 500 examples
+2026-09-05 22:27:13,593 | surface_metrics | INFO | [hindi] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 22:27:15,723 | surface_metrics | INFO | [mt5_xlsum/hindi] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/mt5_xlsum__hindi__surface_metrics.jsonl
+2026-09-05 22:27:15,756 | surface_metrics | INFO | Wrote per-system/per-language mean surface metrics -> /Home/kshitij22256/incon2026/outputs/surface_metrics_summary.csv
+2026-09-05 23:26:25,778 | surface_metrics | INFO | [indicbart/bengali] scoring 500 examples
+2026-09-05 23:26:28,037 | surface_metrics | INFO | [bengali] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 23:26:31,327 | surface_metrics | INFO | [indicbart/bengali] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/indicbart__bengali__surface_metrics.jsonl
+2026-09-05 23:26:31,348 | surface_metrics | INFO | [indicbart/hindi] scoring 500 examples
+2026-09-05 23:26:34,395 | surface_metrics | INFO | [hindi] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 23:26:36,744 | surface_metrics | INFO | [indicbart/hindi] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/indicbart__hindi__surface_metrics.jsonl
+2026-09-05 23:26:36,769 | surface_metrics | INFO | [lead_baseline/bengali] scoring 500 examples
+2026-09-05 23:26:39,902 | surface_metrics | INFO | [bengali] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 23:26:41,610 | surface_metrics | INFO | [lead_baseline/bengali] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/lead_baseline__bengali__surface_metrics.jsonl
+2026-09-05 23:26:41,621 | surface_metrics | INFO | [lead_baseline/english] scoring 500 examples
+2026-09-05 23:26:41,921 | surface_metrics | INFO | [english] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/microsoft__deberta-xlarge-mnli
+2026-09-05 23:26:48,654 | surface_metrics | INFO | [lead_baseline/english] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/lead_baseline__english__surface_metrics.jsonl
+2026-09-05 23:26:48,671 | surface_metrics | INFO | [lead_baseline/hindi] scoring 500 examples
+2026-09-05 23:26:50,324 | surface_metrics | INFO | [hindi] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 23:26:52,138 | surface_metrics | INFO | [lead_baseline/hindi] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/lead_baseline__hindi__surface_metrics.jsonl
+2026-09-05 23:26:52,159 | surface_metrics | INFO | [mt5_xlsum/bengali] scoring 500 examples
+2026-09-05 23:26:52,853 | surface_metrics | INFO | [bengali] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 23:26:54,414 | surface_metrics | INFO | [mt5_xlsum/bengali] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/mt5_xlsum__bengali__surface_metrics.jsonl
+2026-09-05 23:26:54,423 | surface_metrics | INFO | [mt5_xlsum/english] scoring 500 examples
+2026-09-05 23:26:54,564 | surface_metrics | INFO | [english] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/microsoft__deberta-xlarge-mnli
+2026-09-05 23:26:59,205 | surface_metrics | INFO | [mt5_xlsum/english] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/mt5_xlsum__english__surface_metrics.jsonl
+2026-09-05 23:26:59,225 | surface_metrics | INFO | [mt5_xlsum/hindi] scoring 500 examples
+2026-09-05 23:26:59,787 | surface_metrics | INFO | [hindi] loading BERTScore backbone from /Home/kshitij22256/incon2026/models/bertscore_backbone/google__muril-base-cased
+2026-09-05 23:27:01,255 | surface_metrics | INFO | [mt5_xlsum/hindi] wrote surface metrics -> /Home/kshitij22256/incon2026/outputs/metrics/mt5_xlsum__hindi__surface_metrics.jsonl
+2026-09-05 23:27:01,283 | surface_metrics | INFO | Wrote per-system/per-language mean surface metrics -> /Home/kshitij22256/incon2026/outputs/surface_metrics_summary.csv
